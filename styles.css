@@ -49,6 +49,11 @@ p {
   font-weight: normal;
   color: #98faec;
 }
+.number {
+  font-size: 48px;
+  font-weight: 500;
+  color: rgba(18, 247, 214, 1);
+}
 .left {
   border-bottom-width: 4px;
   border-color: #ffffff;
@@ -100,6 +105,7 @@ p {
 .title-about {
   border-bottom-width: 4px;
   border-color: #12f7d6;
+  color: #12f7d6;
   border-left-width: 4px;
   border-right-width: 4px;
   border-style: solid;
@@ -220,9 +226,16 @@ p {
   background-color: #1a1e23;
   color: white;
 }
+.contact-title p {
+  text-align: center;
+  font-weight: 500;
+
+  text-transform: capitalize;
+}
 .contact-title {
   border-bottom-width: 2px;
   border-color: #12f7d6;
+  color: #12f7d6;
   border-left-width: 2px;
   border-right-width: 2px;
   border-style: solid;
