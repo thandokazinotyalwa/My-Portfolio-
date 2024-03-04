@@ -89,13 +89,13 @@ p {
   flex: none;
   flex-direction: column;
   flex-wrap: nowrap;
-  gap: 48px;
+  gap: 28px;
   height: min-content;
   justify-content: center;
   overflow: visible;
-  padding: 48px 32px;
+  padding: 48px  32px ;
   position: relative;
-  transform: perspective(1200px);
+  transform: perspective(1200px); 
   width: min-content;
 }
 #about {
@@ -103,9 +103,9 @@ p {
   color: white;
 }
 .title-about {
-  border-bottom-width: 4px;
   border-color: #12f7d6;
   color: #12f7d6;
+  border-bottom-width: 4px;
   border-left-width: 4px;
   border-right-width: 4px;
   border-style: solid;
@@ -123,7 +123,8 @@ p {
   height: min-content;
   justify-content: flex-start;
   overflow: visible;
-  padding: 16px 40px;
+  margin-top: 20px;
+  padding: 16px 50px;
   position: relative;
   transform: perspective(1200px);
   width: min-content;
