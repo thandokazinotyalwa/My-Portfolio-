@@ -93,9 +93,9 @@ p {
   height: min-content;
   justify-content: center;
   overflow: visible;
-  padding: 48px  32px ;
+  padding: 48px 32px;
   position: relative;
-  transform: perspective(1200px); 
+  transform: perspective(1200px);
   width: min-content;
 }
 /*about*/
@@ -150,7 +150,7 @@ p {
   height: min-content;
   justify-content: flex-start;
   overflow: visible;
-  padding: 24px 40px;
+  padding: 10px 30px;
   position: relative;
   width: min-content;
 }
@@ -159,34 +159,16 @@ p {
   background-image: url(images/skills\ background.webp);
   color: white;
 }
+.content-skills {
+  text-align: center;
+}
 .langauges {
   align-items: center;
   display: flex;
-  flex: none;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  gap: 64px;
-  height: min-content;
-  justify-content: center;
-  overflow: visible;
-  padding: 0;
-  position: relative;
-  transform: perspective(1200px);
-  width: min-content;
 }
 .html .css .js .react {
   align-items: center;
-  display: flex;
-  flex: none;
-  flex-direction: column;
-  flex-wrap: nowrap;
-  gap: 24px;
-  height: min-content;
-  justify-content: center;
-  overflow: visible;
-  padding: 0;
-  position: relative;
-  width: min-content;
+  display: flexbox;
 }
 .icon {
   align-items: center;
@@ -203,6 +185,24 @@ p {
   padding: 40px;
   position: relative;
   width: min-content;
+}
+.icon2 {
+  background-color: #0c73b8;
+}
+.icon3 {
+  background-color: #e7a020;
+}
+.icon4 {
+  background-color: #28a9e0;
+}
+.name2 {
+  color: #0c73b8;
+}
+.name3 {
+  color: #e7a020;
+}
+.name4 {
+  color: #28a9e0;
 }
 .icon-name {
   align-items: flex-start;
@@ -223,10 +223,19 @@ p {
   background-color: #292f36;
   color: white;
 }
+.content-work {
+  text-align: center;
+}
 /*contact*/
 #contact {
   background-color: #1a1e23;
   color: white;
+}
+.contact-form {
+  text-align: justify;
+}
+.content-contact {
+  text-align: center;
 }
 .contact-title p {
   text-align: center;
@@ -295,9 +304,7 @@ input {
 form {
   width: 100%;
   height: auto;
-  display: flex;
   position: relative;
-  flex-direction: row;
   color: rgb(255, 255, 255);
   gap: 12px;
 }
