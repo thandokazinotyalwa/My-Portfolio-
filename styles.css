@@ -98,6 +98,7 @@ p {
   transform: perspective(1200px); 
   width: min-content;
 }
+/*about*/
 #about {
   background-image: url(/images/background.webp);
   color: white;
