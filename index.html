@@ -149,20 +149,18 @@
               <p>Send a message</p>
             </div>
             <div class="contact-form">
-              <form action="">
-                <label>Your Name *</label>
-                <input type="text" placeholder="enter your name" required>
+              <form onsubmit="return validateForm()" action="/send" method="post">
+                <label for="name">Your Name *</label>
+                <input type="text" placeholder="enter your name" id="name" name="name" required>
                 <br>
-                <label>Your Email *</label>
-                <input type="text" placeholder="enter your email" required>
+                <label for="email">Your Email *</label>
+                <input type="text" placeholder="enter your email" id="email"  name="email" required>
                 <br>
                 <label>Leave a Message *</label>
                 <input type="text" placeholder="enter your message" required>
                 <br>
+                <button type="submit" value="submit" class="btn btn-branding">Submit</button>
               </form>
-              </div>
-              <div class="btn btn-branding" >
-                <a href="#" >Contact me</a>
               </div>
             <!--footer-->
             <footer>
