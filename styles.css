@@ -66,7 +66,6 @@ nav li.active a {
 }
 .content {
   align-items: center;
-  display: flex;
   gap: 32px;
   height: 100vh;
   padding: 0;
@@ -148,7 +147,7 @@ nav li.active a {
   margin-left: 60px;
   margin-bottom: 50px;
 }
-img {
+.mypic {
   border-radius: 80px;
   margin-left: 150px;
   height: 400px;
@@ -173,12 +172,10 @@ img {
   border-bottom-right-radius: 40px;
   border-top-left-radius: 40px;
   display: flex;
-  gap: 0px;
-  height: min-content;
   overflow: visible;
   margin-top: 20px;
   padding: 16px 50px;
-  width: min-content;
+  
 }
 .title {
   outline: none;
@@ -228,7 +225,6 @@ img {
   height: min-content;
   overflow: hidden;
   padding: 40px;
-
   width: min-content;
 }
 .icon2 {
@@ -240,7 +236,7 @@ img {
 .icon4 {
   background-color: #28a9e0;
 }
-.name2 {
+.name2{
   color: #0c73b8;
 }
 .name3 {
@@ -264,6 +260,10 @@ img {
 }
 .content-work {
   text-align: center;
+}
+.projects{
+  display: flex;
+  justify-content: center;
 }
 
 /*contact*/
@@ -299,20 +299,18 @@ img {
   overflow: visible;
   padding: 16px 40px;
 }*/
-/*.btn-branding {
-  background-color: #12f7d6;
+.btn-branding {
+  background-color: #51c4b2;
   border-radius: 4px;
   color: white;
   font-size: 18px;
   display: flex;
-  height: min-content;
   justify-content: center;
-  padding: 16px 32px;
-  width: min-content;
-}*/
+  padding: 12px 30px; 
+}
+
 input {
   appearance: none;
-  margin-bottom: 15px;
   width: 40%;
   height: auto;
   outline: none;
@@ -323,15 +321,17 @@ input {
   font-style: normal;
   font-weight: 300px;
   letter-spacing: 0em;
-  line-height: 1em;
+  display: block;
+  justify-content: center;
   text-align: left;
-  background: #6fccbe;
+  background: #a6f3e7;
   color: rgb(255, 255, 255);
 }
 form {
   width: 100%;
   height: auto;
-  position: relative;
+  display: block;
+  justify-content: center;
   color: rgb(255, 255, 255);
   gap: 12px;
 }

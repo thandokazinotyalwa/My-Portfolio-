@@ -51,7 +51,7 @@
             I'm Thandokazi Notyalwa,<br>Software Developer.
            </h1>
            
-           <img src="images/IMG_8275.JPG" alt="My image" >
+           <img class="mypic" src="images/IMG_8275.JPG" alt="My image" >
            <p>Solving complex problems and finding creative solutions are what drive me. <br>
             I thrive in environments where i can tackle challenges and find innovative <br>
             ways to overcome them. <br>
@@ -70,7 +70,7 @@
       </section>
       <!--about-->
       <section id="about">
-                <div class="content">
+                <div class="">
                   <i class="fa-solid fa-computer-mouse-scrollwheel">shag</i> 
                   <div class="title">
                     <h1>About me</h1>
@@ -101,20 +101,20 @@
                   <div class="my-skills">
                     <div class="languages">
                       <div class="html">
-                       <span class="icon icon1"><i class="fa-brands fa-html5"></i></span>
+                       <span class="icon icon1"><a href="//www.shecodes.io/certificates/e75cf4dca40ad94fe6fe6750e9a60232"><i class="fa-brands fa-html5"></i></a></span>
                        <span class="icon-name"><p>HTML</p></span>
                       </div>
                     </div>
                       <div class="css">
-                       <span class="icon icon2"><i class="fa-brands fa-css3-alt"></i></span>
+                       <span class="icon icon2"><a href="https://shecodes.io/certificates/348fb8adab7e9801f1c7b93b1f20a05e"><i class="fa-brands fa-css3-alt"></i></a></span>
                        <span class="icon-name name2"><p>CSS</p></span> 
                       </div>
                       <div class="js">
-                        <span class="icon icon3"><i class="fa-brands fa-js"></i></span>
+                        <span class="icon icon3"><a href="https://shecodes.io/certificates/622aefaa4c2a3f5a432b5463d17ffff9"><i class="fa-brands fa-js"></i></a></span>
                         <span class="icon-name name3"><p>JS</p></span>
                       </div>
                       <div class="react">
-                        <span class="icon icon4"><i class="fa-brands fa-react"></i></span>
+                        <span class="icon icon4"><a href="#"><i class="fa-brands fa-react"></i></a></span>
                         <span class="icon-name name4"><p>REACT</p></span> 
                       </div>
                   </div>
@@ -131,14 +131,33 @@
                 </div>
                 <div class="projects">
                      <p>Weather App</p>
+                     <img src="images/Portfolio.png" 
+                      alt="Portfolio projects" 
+                      width="300px"
+                      height="200px"
+                      class="img-fluid">
+                     <a href="https://vercel.com/thandokazinotyalwa/portfolio-project/BoAJyq9ff8CjhH5cu3WKhiZ9g7uf"></a>
                      <p>Portfolio</p>
+                     <img src="images/Portfolio.png" 
+                      alt="Portfolio projects" 
+                      width="300px"
+                      height="200px"
+                      class="img-fluid">
+                     <a href="https://vercel.com/thandokazinotyalwa/portfolio-project/BoAJyq9ff8CjhH5cu3WKhiZ9g7uf"></a>
+                     <a href="//vercel.com/thandokazinotyalwa/portfolio-project/BoAJyq9ff8CjhH5cu3WKhiZ9g7uf"></a></a>
                      <p>React weather app</p>
+                     <img src="images/Portfolio.png" 
+                      alt="Portfolio projects" 
+                      width="300px"
+                      height="200px"
+                      class="img-fluid">
+                     <a href="https://vercel.com/thandokazinotyalwa/portfolio-project/BoAJyq9ff8CjhH5cu3WKhiZ9g7uf"></a>
                 </div>
             </div>
       </section>
       <!--contact-->
       <section id="contact">
-          <div class="content-contact">
+        <div class="content-contact">
             <div class="icons">
                 <p><i class="fa-thin fa-computer-mouse-scrollwheel"></i></p>
             </div>
@@ -149,22 +168,22 @@
               <p>Send a message</p>
             </div>
             <div class="contact-form">
-              <form onsubmit="return validateForm()" action="/send" method="post">
-                <label for="name">Your Name *</label>
-                <input type="text" placeholder="enter your name" id="name" name="name" required>
+              <form onsubmit="return validateForm()">
+                <label for="name">Full Name *</label>
+                <input type="text" placeholder="enter your name" id="name" name="name" oninput="validateName()" required>
                 <br>
-                <label for="email">Your Email *</label>
-                <input type="text" placeholder="enter your email" id="email"  name="email" required>
+                <label for="email">Email *</label>
+                <input type="text" placeholder="enter your email" id="email"  name="email" oninput="validateEmail()" required>
                 <br>
                 <label>Leave a Message *</label>
                 <input type="text" placeholder="enter your message" required>
                 <br>
                 <button type="submit" value="submit" class="btn btn-branding">Submit</button>
               </form>
-              </div>
+            </div>
             <!--footer-->
             <footer>
-             <div class="social-links text-center">
+              <div class="social-links text-center">
                 <a
                   href="https://www.github.com/thandokazi2000"
                   target="_blank"
@@ -188,4 +207,5 @@
           </div>
       </section>
   </body>
+  <script src="script.js"></script>
 </html>
