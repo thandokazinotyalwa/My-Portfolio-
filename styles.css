@@ -64,6 +64,10 @@ nav a:hover,
 nav li.active a {
   color: #64c2b1;
 }
+/*End of Nav*/
+
+
+/*Home*/
 .content {
   align-items: center;
   gap: 32px;
@@ -71,7 +75,6 @@ nav li.active a {
   padding: 0;
   width: auto;
 }
-/*home*/
 #home {
   background-color: #292f36;
   color: white;
@@ -86,6 +89,10 @@ nav li.active a {
   font-family: "Poppins", sans-serif;
   font-weight: normal;
   color: #98faec;
+}
+.landing{
+  display: flex;
+  justify-content: space-around;
 }
 .web-text h3 {
   font-size: 30px;
@@ -114,15 +121,12 @@ nav li.active a {
   padding: 30px 20px;
   position: relative;
   width: min-content;
-  margin-left: 70px;
-  margin-top: 100px;
 }
 .web-text h2 {
   font-size: 30px;
   color: #12f7d6;
   font-weight: 300px;
 }
-
 .left {
   border-bottom-width: 4px;
   border-color: #ffffff;
@@ -144,8 +148,6 @@ nav li.active a {
   flex-direction: column;
   flex-wrap: nowrap;
   width: 200px;
-  margin-left: 60px;
-  margin-bottom: 50px;
 }
 .mypic {
   border-radius: 80px;
@@ -155,10 +157,14 @@ nav li.active a {
 .web-text {
   margin-top: 200px;
 }
-/*about*/
+/*End of Home*/
+
+/*About*/
 #about {
   background-image: url(/images/background.webp);
   color: white;
+  height: 150vh;
+  width: auto;
 }
 .title-about {
   border-color: #12f7d6;
@@ -175,12 +181,9 @@ nav li.active a {
   overflow: visible;
   margin-top: 20px;
   padding: 16px 50px;
-  
 }
 .title {
-  outline: none;
-  flex-shrink: 0;
-  transform: none;
+  text-align: center;
 }
 .about-text {
   background-color: #292f36;
@@ -189,16 +192,21 @@ nav li.active a {
   flex-direction: column;
   flex-wrap: nowrap;
   gap: 16px;
-  height: 300px;
+  height: 150px;
   justify-content: flex-start;
   overflow: visible;
   padding: 10px 20px;
+  margin-bottom: 30px;
   width: auto;
 }
-/*about*/
+/*end of About*/
+
+/*Skills*/
 #skills {
   background-image: url(images/skills\ background.webp);
   color: white;
+  height: 150vh;
+  width: auto;
 }
 .my-skills {
   border-radius: 80px;
@@ -253,23 +261,30 @@ nav li.active a {
   padding: 0;
   width: min-content;
 }
+/*end of Skills*/
+
 /*work*/
 #work {
   background-color: #292f36;
   color: white;
+  height: 150vh;
+  width: auto;
 }
 .content-work {
   text-align: center;
 }
 .projects{
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
 }
+/*end of Skills*/
 
 /*contact*/
 #contact {
   background-color: #1a1e23;
   color: white;
+  height: 150vh;
+  width: auto;
 }
 .contact-form {
   text-align: justify;
@@ -346,6 +361,7 @@ form {
   padding: 0 240px;
   width: 100%;
 }
+/*end of Contact*/
 
 /*footer*/
 footer {
@@ -364,5 +380,5 @@ footer .social-links a:hover {
   color: white;
   background-color: #12f7d6;
 }
-@media screen {
-}
+/*end of footer*/
+
